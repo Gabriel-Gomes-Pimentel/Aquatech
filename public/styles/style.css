@@ -47,7 +47,7 @@ body {
 
 
 
-/* BANNRER */
+/* BANNER */
 
 .banner {
     height: 400px;
@@ -140,4 +140,72 @@ body {
 .footer h4 {
     margin: 0;
 
+}
+
+/* Login */
+
+.login {
+    height: 560px;
+    width: 100%;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login {
+    background-color: #eeeeee;
+    width: 560px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(50, 185, 205, 0.3);
+    text-align: center;
+
+}
+
+.card-login h2 {
+    margin-bottom: 20px;
+    color: #f17ea1;
+    font-size: 26px;
+}
+
+.formulario .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.campo span {
+    margin-bottom: 5px;
+    color: #f17ea1;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.campo input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.botao {
+    margin-top: 20px;
+    background-color: #f71f5f;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    /* Faz parecer um click */
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #fb306d;
 }
